@@ -41,5 +41,5 @@ Detection Method:
 
 ## Support
 
-This script is provided as-is, read the DisableCMDRequestPre-ProvTask.ps1 script code and adjust as necessary, but be careful not to add extra processing of tasks because even though it only takes 3 seconds to trigger on a successful screen, it runs silently in background. Any additional tasks you add won't be guaranteed before a technician selects RESEAL.
+This script is provided as-is, read the DisableCMDRequestPre-ProvTask.ps1 script code and adjust as necessary, but be careful not to add extra processing of tasks because even though it only takes 3 seconds to trigger on a successful screen, it runs silently in background. Any additional tasks you add won't be guaranteed to execute before a technician selects RESEAL.
 Use at your own risk.
