@@ -14,7 +14,7 @@ https://www.linkedin.com/pulse/conditionally-limiting-command-prompt-oobe-after-
 
 ## Usage
 
-The code is fairly simple, to use it download the intunewin file (or compile from the PS1 file) and upload to your tenant as Win32 Application (this is the link in the console: https://endpoint.microsoft.com/#view/Microsoft_Intune_DeviceSettings/AppsWindowsMenu/~/windowsApps
+The code is fairly simple, to use it download the intunewin file (or compile from the PS1 file) and upload to your tenant as Win32 Application (this is the link in the console): https://endpoint.microsoft.com/#view/Microsoft_Intune_DeviceSettings/AppsWindowsMenu/~/windowsApps
 
 Once there, configure as follows and assign it to any group you currently use for Autopilot deployments. 
 
