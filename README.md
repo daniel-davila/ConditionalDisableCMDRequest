@@ -9,7 +9,8 @@ This project was created to allow for technicians pre-provisioning devices to pu
 Historical information can be found here for reference:
 (https://oofhours.com/2020/08/04/disable-shift-f10-in-oobe/)
 
-
+LinkedIn Article for more information:
+https://www.linkedin.com/pulse/conditionally-limiting-command-prompt-oobe-after-autopilot-davila
 
 ## Usage
 
