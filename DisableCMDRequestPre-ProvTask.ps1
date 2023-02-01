@@ -82,7 +82,7 @@ and
 Register-ScheduledTask -xml ($XMLContents | Out-String) -TaskName $TaskName -TaskPath $TaskPath -User SYSTEM -Force
 
 $check = Get-ScheduledTask -TaskPath $TaskPath -TaskName $TaskName -ErrorAction SilentlyContinue
-if ($check)
+if ($check.TaskName)
 {
 	Write-Host "Success: Scheduled task was CONFIRMED!"
 	Write-Host "Writing to "$logPath\$flagFile""
