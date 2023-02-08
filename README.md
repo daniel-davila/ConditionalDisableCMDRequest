@@ -4,7 +4,7 @@
 I'm a Design Architect for Dell and one of my roles is supporting customers leveraging Microsoft's Autopilot provisioning with Intune. 
 One of the main issues with troubleshooting pre-provisioning projects is customers may decide to implement the C:\Windows\Setup\Scripts\DisableCMDRequest.tag file to disable Shift+F10 invocation to display an elevated Command Prompt.
 
-This project was created to allow for technicians pre-provisioning devices to pull logs on failures, but also ensure customers have a method to know the tag file is written when Pre-provisioning was successful. Once the file is created at the end of pre-provisioning the keyboard shortcut will be disabled on the next system boot, which is when the device is firat available to a user.
+This project was created to allow for technicians pre-provisioning devices to pull logs on failures, but also ensure customers have a method to know the tag file is written when Pre-provisioning was successful. Once the file is created at the end of pre-provisioning the keyboard shortcut will be disabled on the next system boot, which is when the device is first available to a user.
 
 Historical information can be found here for reference:
 (https://oofhours.com/2020/08/04/disable-shift-f10-in-oobe/)
