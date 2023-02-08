@@ -22,7 +22,7 @@ Install command:
   powershell.exe -noprofile -executionpolicy bypass -file .\DisableCMDRequestPre-ProvTask.ps1
 
 Uninstall command:
-  cmd /c del %Windir%\Setup\Scripts\DisableCMDRequest.flg && del %ProgramData%\Microsoft\IntuneManagementExtension\Logs\DisableCMDRequestPre-ProvTask.flg
+  cmd /c del %Windir%\Setup\Scripts\DisableCMDRequest.tag && del %ProgramData%\Microsoft\IntuneManagementExtension\Logs\DisableCMDRequestPre-ProvTask.flg
 
 Install Behavior: 
   System
